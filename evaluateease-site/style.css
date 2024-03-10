@@ -1,0 +1,354 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default browser margins */
+    padding-bottom: 50px; /* Remove default browser padding */
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 0px;
+  }
+  
+  h1 {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 2em;
+  }
+  
+  nav {
+    list-style: none;
+    padding-right: 0;
+    margin: 0;
+    display: flex; /* Arrange navigation links horizontally */
+    justify-content: space-between; /* Distribute links evenly across the header */
+  }
+  
+  nav li {
+    display: inline-block; /* Display navigation links inline */
+    margin-right: 20px; /* Add spacing between links */
+    background-color: aliceblue;
+    
+  }
+  
+  nav a {
+    background: #ddd;
+    text-decoration: none;
+    color: white;
+  }
+  
+  nav a:hover {
+    color: #333; /* Change link color on hover */
+  }
+  /* Background Image */
+ 
+  
+  
+  main {
+    padding-top: 40px;
+    align-items: center;
+
+  }
+  
+  .hero {
+    text-align: center; /* Center align hero section content */
+    padding: 120px;
+    text-align: center;
+    background-image: url('Images/bg1.jpg'); /* Add background image */
+    background-size: cover; /* Cover the entire element with the background image */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  p {
+    line-height: 1.5; /* Increase line spacing for better readability */
+    margin-bottom: 20px;
+  }
+  
+  a {
+    padding: 10px 20px;
+    background-color:rgb(187, 166, 166);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Add rounded corners to button */
+  }
+  
+  a:hover {
+    background-color: #920d7e; /* Darken button color on hover */
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 100px;
+    
+  }
+
+  /* page 2 */
+
+  #evaluate {
+    padding: 40px;
+    background-image: url('Images/bg3.jpg'); /* Add background image */
+    background-size: cover; /* Cover the entire element with the background image */
+}
+
+  h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav a:hover {
+    color: #333;
+  }
+  
+  main {
+    padding: 40px;
+  }
+  
+  .evaluation-result {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  .author-details,
+  .report-details,
+  .evaluation {
+    margin-bottom: 20px;
+  }
+  
+  .author-details p,
+  .report-details p {
+    font-weight: bold; /* Bolden labels for clarity */
+  }
+  
+  #report-text {
+    width: 100%; /* Make textarea fill available width */
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .evaluation {
+    display: flex;
+    justify-content: space-between; /* Align button and result */
+  }
+  
+  .evaluation button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Indicate clickable button */
+  }
+  
+  .evaluation button:hover {
+    background-color: #444;
+  }
+  
+  #result {
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* page 3 */
+
+  #reportsub {
+    padding: 40px;
+    background-image: url('Images/bg4.jpg'); /* Add background image */
+    background-size: cover; /* Cover the entire element with the background image */
+}
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav a:hover {
+    color: #333;
+  }
+  
+  main {
+    padding: 120px;
+  }
+  
+  .recent-topics {
+    border: 1px solid #ddd;
+    padding: 120px;
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  #search-topic {
+    width: 100%; /* Make search bar fill available width */
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .topics-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .topics-list li {
+    margin-bottom: 25px;
+  }
+  
+  .topics-list a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .topics-list a:hover {
+    color: #333;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+  }
+  /* page 4 */
+
+  #GD {
+    padding: 40px;
+    background-image: url('Images/bg5.jpg'); /* Add background image */
+    background-size: cover; /* Cover the entire element with the background image */
+}
+
+  h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  nav a:hover {
+    color: #333;
+  }
+  
+  main {
+    padding: 40px;
+  }
+  
+  .grade-cards {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  table {
+    width: 100%; /* Make table fill available width */
+    border-collapse: collapse; /* Remove default table borders */
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left; /* Align content left within table cells */
+  }
+  
+  th {
+    background-color: #f0f0f0; /* Differentiate header row visually */
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 70px;
+  }
